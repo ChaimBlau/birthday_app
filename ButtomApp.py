@@ -11,7 +11,7 @@ BIRTHDAY = datetime(2020, 7, 23)
 class ToBirthday(Label):
     def update(self, dt):
         delta = BIRTHDAY - datetime.now()
-        self.text =  str(delta).split('.')[0] + '\n To Birthday'
+        self.text = str(delta).split('.')[0] + '\n To Birthday'
 
 
 class MainApp(App):
